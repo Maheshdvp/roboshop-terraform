@@ -1,7 +1,6 @@
 
 
 components={
-  default = {
     frontend = {
       name          = "frontend"
       instance_type = "t3.micro"
@@ -42,7 +41,7 @@ components={
       name          = "shipping"
       instance_type = "t3.micro"
     }
-  }
+
 }
 security_groups= [ "sg-03a191c8c20494101" ]
 zone_id= "Z023814724XBO8OK2PSWK"
