@@ -22,4 +22,4 @@ vpc = {
 
 
 
-default_vpc_id="vpc-05db4dabe04c748bf"
+default_vpc_id= "vpc-05db4dabe04c748bf"
