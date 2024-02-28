@@ -23,7 +23,7 @@ module "vpc" {
 #  vpc_id = each.value["internal"] ? local.vpc_id : var.default_vpc_id
 #  tags = var.tags
 ##  vpc_id = each.value["internal"] ? :var.default_vpc_id
-#  subnets = each.value["internal"] ?  ""
+#  subnets = each.value["internal"] ?  : local.app_subnets
 #  env =var.env
 #  sg_port =each.value["sg_port"]
 #}
